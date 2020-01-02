@@ -19,18 +19,18 @@ body {
   height: 100%;
 }
 html {
-  font-size: 14px;
+  font-size: 12px;
 }
 body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
   min-width: 320px;
-  background: #FFFFFF;
+  background: #394B59;
   font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.4285em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #ced9e0;
   font-smoothing: antialiased;
 }
 
@@ -125,39 +125,43 @@ a:hover {
 /* Site */
 ::-webkit-selection {
   background-color: #CCE2FF;
-  color: rgba(0, 0, 0, 0.87);
+  color: #ced9e0;
 }
 ::-moz-selection {
   background-color: #CCE2FF;
-  color: rgba(0, 0, 0, 0.87);
+  color: #ced9e0;
 }
 ::selection {
   background-color: #CCE2FF;
-  color: rgba(0, 0, 0, 0.87);
+  color: #ced9e0;
 }
 
 /* Form */
 textarea::-webkit-selection,
 input::-webkit-selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(0, 0, 0, 0.87);
+  color: #ced9e0;
 }
 textarea::-moz-selection,
 input::-moz-selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(0, 0, 0, 0.87);
+  color: #ced9e0;
+}
+textarea::-moz-selection, input::-moz-selection {
+  background-color: rgba(100, 100, 100, 0.4);
+  color: #ced9e0;
 }
 textarea::selection,
 input::selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(0, 0, 0, 0.87);
+  color: #ced9e0;
 }
 
 /* Force Simple Scrollbars */
 body ::-webkit-scrollbar {
   -webkit-appearance: none;
-  width: 10px;
-  height: 10px;
+  width: 4px;
+  height: 4px;
 }
 body ::-webkit-scrollbar-track {
   background: rgba(0, 0, 0, 0.1);
@@ -165,7 +169,7 @@ body ::-webkit-scrollbar-track {
 }
 body ::-webkit-scrollbar-thumb {
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 20px;
   background: rgba(0, 0, 0, 0.25);
   -webkit-transition: color 0.2s ease;
   transition: color 0.2s ease;
@@ -202,3 +206,167 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
          Site Overrides
 *******************************/
 
+.lc-header {
+  background-color: #1F2932;
+}
+.lc-header,
+.chrome-tabs {
+  border-bottom: 1px solid #06080A !important;
+}
+.side,
+.group-list,
+.chrome-tabs,
+.side-footer .column,
+.chrome-tabs .chrome-tab {
+  background-color: #293742;
+}
+.chrome-tabs .chrome-tab .chrome-tab-dividers::before,
+.chrome-tabs .chrome-tab .chrome-tab-dividers::after {
+  background-color: #06080A;
+}
+.side .search,
+.group-list {
+  border-color: #212930 !important;
+}
+.plus-tabs {
+  border: 1px solid #06080A;
+}
+.side {
+  border-right: 1px solid #06080A;
+}
+.side-footer {
+  border-top: 1px solid #212930;
+}
+.side-footer .column {
+  border-right: 1px solid #212930;
+}
+i.icon.folder:before {
+  color: #eba439;
+}
+.code-lang,
+.response-common .fence {
+  background-color: #30404C !important;
+}
+.accordion .content .action {
+  background-color: #293742 !important;
+}
+.accordion .action i:hover {
+  background-color: #30404C !important;
+}
+.accordion .content li {
+  background-color: #30404C;
+  border-left-color: #30404C !important;
+  border-top-color: #293742 !important;
+}
+.accordion .content li:hover {
+  background: #293742 !important;
+  color: rgba(206, 217, 224, 0.5) !important;
+  border-left-color: #000 !important;
+}
+.params .item,
+.ui.form .inline.fields .wide.field,
+.ui.form .inline.fields .wide.field.action,
+.environment .item {
+  background-color: #394B59 !important;
+  border-color: #30404C !important;
+}
+.ui.form .disabled.field,
+.ui.form .disabled.fields .field,
+.ui.form .field :disabled,
+.ui.disabled.input,
+.ui.input:not(.disabled) input[disabled] {
+  opacity: 1 !important;
+}
+.code-lang,
+.response-common,
+.api-request .ui.attached.segment {
+  border-color: #212930 !important;
+}
+.code-tab {
+  border: 1px solid #212930 !important;
+}
+i.icon,
+i.icons {
+  color: #8F979E !important;
+}
+.ui.menu .active.item > i.icon.code {
+  color: #009966 !important;
+}
+.response-headers td {
+  border-color: #293742 !important;
+}
+.api-request .segment {
+  background-color: #30404C !important;
+}
+.tips,
+.child-content .head-title font,
+.ui.form .inline.fields .wide.field.action .must-red {
+  color: #e96b6b !important;
+}
+.side-footer .column:hover {
+  background-color: #30404C !important;
+}
+
+/* ======================================= ace editor ======================================= */
+.ace-box {
+  border-color: #293742 !important;
+}
+.ace_gutter {
+  background-color: #30404C !important;
+  border-right: 1px solid #293742 !important;
+}
+.ace_scroller {
+  background-color: #30404C !important;
+}
+
+/* ======================================= jodit ======================================= */
+.jodit_toolbar {
+  background-color: #30404C !important;
+}
+.jodit_toolbar,
+.jodit_container:not(.jodit_inline) .jodit_workplace {
+  border-color: #293742 !important;
+}
+.jodit_container:not(.jodit_inline) {
+  background-color: #30404C !important;
+}
+.jodit_icon {
+  fill: #8F979E !important;
+}
+.jodit_toolbar > .jodit_toolbar_btn.jodit_toolbar_btn-separator {
+  border-color: #212930 !important;
+}
+.jodit_toolbar > .jodit_toolbar_btn.jodit_active,
+.jodit_toolbar > .jodit_toolbar_btn:not(.jodit_toolbar-input):active {
+  background-color: hsla(0, 0%, 86.7%, 0.2) !important;
+}
+.jodit_toolbar_popup .jodit_popup_triangle,
+.jodit_toolbar_popup {
+  background: #30404C !important;
+}
+.jodit_editor_resize a {
+  border-color: transparent #212930 transparent transparent !important;
+}
+
+/* ======================================= chrome tabs ======================================= */
+.chrome-tabs .chrome-tab[active] {
+  background-color: #394B59 !important;
+}
+.chrome-tabs .chrome-tab .chrome-tab-title {
+  color: #a7b6c2 !important;
+}
+.chrome-tabs .chrome-tab[active] .chrome-tab-title {
+  color: #FFFFFF !important;
+}
+.chrome-tabs .chrome-tab .chrome-tab-dividers::before,
+.chrome-tabs .chrome-tab .chrome-tab-dividers::after {
+  background: #212930 !important;
+}
+@media (hover: hover) {
+  .chrome-tabs .chrome-tab:not([active]):hover {
+    background-color: #394B59 !important;
+  }
+  .chrome-tabs .chrome-tab:not([active]):hover .chrome-tab-background {
+    opacity: 1;
+  }
+}

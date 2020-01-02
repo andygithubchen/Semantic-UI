@@ -1,0 +1,185 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+.lc-header{
+  background-color: @headerColor;
+}
+
+.lc-header,
+.chrome-tabs{
+  border-bottom: 1px solid @nightBorderColor !important;
+}
+
+.side,
+.group-list,
+.chrome-tabs,
+.side-footer .column,
+.chrome-tabs .chrome-tab{
+  background-color: @backgroundColor;
+}
+
+.chrome-tabs .chrome-tab .chrome-tab-dividers::before,
+.chrome-tabs .chrome-tab .chrome-tab-dividers::after{
+  background-color: @nightBorderColor;
+}
+
+.side .search,
+.group-list {
+  border-color: @groupListBorderColor !important;
+}
+
+.plus-tabs{
+  border: 1px solid @nightBorderColor;
+}
+
+.side{
+  border-right: 1px solid @nightBorderColor;
+}
+.side-footer{
+  border-top: 1px solid @borderColor;
+}
+.side-footer .column{
+  border-right: 1px solid @borderColor;
+}
+
+i.icon.folder:before{
+  color: @fileIconColor;
+}
+
+.code-lang,
+.response-common .fence{
+  background-color: @apiListBackgroundColor !important;
+}
+
+.accordion .content .action{
+  background-color: @backgroundColor !important;
+}
+.accordion .action i:hover{
+  background-color: @apiListBackgroundColor !important;
+}
+.accordion .content li{
+  background-color: @apiListBackgroundColor;
+  border-left-color: @apiListBackgroundColor !important;
+  border-top-color: @backgroundColor !important;
+}
+.accordion .content li:hover{
+  background: @backgroundColor !important;
+  color: fade(@textColor, 50%) !important;
+  border-left-color: #000 !important;
+}
+
+.params .item,
+.ui.form .inline.fields .wide.field,
+.ui.form .inline.fields .wide.field.action,
+.environment .item{
+  background-color: @pageBackground !important;
+  border-color: @apiListBackgroundColor !important;
+}
+.ui.form .disabled.field, .ui.form .disabled.fields .field, .ui.form .field :disabled,
+.ui.disabled.input, .ui.input:not(.disabled) input[disabled]{
+  opacity:1 !important;
+}
+.code-lang,
+.response-common,
+.api-request .ui.attached.segment{
+  border-color: @borderColor !important;
+}
+.code-tab{
+  border: 1px solid @borderColor !important;
+}
+
+
+i.icon,
+i.icons{
+  color: @iconColor !important;
+}
+
+.ui.menu .active.item>i.icon.code{
+  color: @secondaryPointingActiveColor !important;
+}
+
+.response-headers td{
+  border-color: @backgroundColor !important;
+}
+.api-request .segment{
+  background-color: @apiListBackgroundColor !important;
+}
+
+.tips,
+.child-content .head-title font,
+.ui.form .inline.fields .wide.field.action .must-red{
+  color: @red !important;
+}
+
+.side-footer .column:hover{
+  background-color: @apiListBackgroundColor !important;
+}
+
+
+
+/* ======================================= ace editor ======================================= */
+.ace-box{
+  border-color: @backgroundColor !important;
+}
+.ace_gutter{
+  background-color: @apiListBackgroundColor !important;
+  border-right: 1px solid @backgroundColor !important;
+}
+.ace_scroller{
+  background-color: @apiListBackgroundColor !important;
+}
+
+/* ======================================= jodit ======================================= */
+.jodit_toolbar{
+  background-color: @apiListBackgroundColor !important;
+}
+.jodit_toolbar,
+.jodit_container:not(.jodit_inline) .jodit_workplace{
+  border-color: @backgroundColor !important;
+}
+.jodit_container:not(.jodit_inline){
+  background-color: @apiListBackgroundColor !important;
+}
+.jodit_icon{
+  fill: @iconColor !important;
+}
+.jodit_toolbar>.jodit_toolbar_btn.jodit_toolbar_btn-separator{
+  border-color:@borderColor !important;
+}
+.jodit_toolbar>.jodit_toolbar_btn.jodit_active,
+.jodit_toolbar>.jodit_toolbar_btn:not(.jodit_toolbar-input):active{
+  background-color: hsla(0,0%,86.7%,.2) !important;
+}
+.jodit_toolbar_popup .jodit_popup_triangle,
+.jodit_toolbar_popup{
+  background: @apiListBackgroundColor !important;
+}
+.jodit_editor_resize a{
+  border-color: transparent @borderColor transparent transparent !important;
+}
+
+/* ======================================= chrome tabs ======================================= */
+.chrome-tabs .chrome-tab[active]{
+  background-color: @pageBackground !important;
+}
+.chrome-tabs .chrome-tab .chrome-tab-title{
+  color: @chromeTabTextColor !important;
+}
+.chrome-tabs .chrome-tab[active] .chrome-tab-title{
+  color: @chromeTabActiveTextColor !important;
+}
+.chrome-tabs .chrome-tab .chrome-tab-dividers::before,
+.chrome-tabs .chrome-tab .chrome-tab-dividers::after{
+  background: @chromeDividersColor !important;
+}
+@media (hover: hover) {
+  .chrome-tabs .chrome-tab:not([active]):hover {
+    background-color: @pageBackground !important;
+  }
+  .chrome-tabs .chrome-tab:not([active]):hover .chrome-tab-background {
+    opacity: 1;
+  }
+}
+
+

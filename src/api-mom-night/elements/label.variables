@@ -1,0 +1,23 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+@backgroundColor: @labelBackgroundColor;
+@color: fade(@textColor, 70%);
+
+
+/* Hover */
+@labelHoverBackgroundColor: #212C34;
+@labelHoverBackgroundImage: none;
+@labelHoverTextColor: @textColor;
+
+/* Active */
+@labelActiveBackgroundColor: #212C34;
+@labelActiveBackgroundImage: none;
+@labelActiveTextColor: @textColor;
+
+/* Active Hover */
+@labelActiveHoverBackgroundColor: @pageBackground;
+@labelActiveHoverBackgroundImage: none;
+@labelActiveHoverTextColor: @textColor;
+

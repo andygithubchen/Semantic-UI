@@ -1,0 +1,30 @@
+/*******************************
+         Site Overrides
+
+
+
+*******************************/
+
+@background: @backgroundColor;
+
+
+
+@headerBackground: @apiListBackgroundColor;
+@headerColor: @textColor;
+
+
+
+@contentBackground: @backgroundColor;
+
+
+
+@actionBackground: @backgroundColor;
+
+
+@basicModalHeaderColor: @apiListBackgroundColor;
+@basicModalColor: @textColor;
+@basicInnerCloseColor: red;
+
+
+
+

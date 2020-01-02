@@ -1,0 +1,54 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+.lc-header,
+.chrome-tabs{
+  border-bottom: 1px solid @borderColor !important;
+}
+
+.side,
+.lc-header,
+.group-list,
+.chrome-tabs,
+.side-footer .column,
+.chrome-tabs .chrome-tab{
+  background-color: @backgroundColor;
+}
+
+.chrome-tabs .chrome-tab .chrome-tab-dividers::before,
+.chrome-tabs .chrome-tab .chrome-tab-dividers::after{
+  background-color: @borderColor;
+}
+
+.side-footer,
+.group-list {
+  border-top: 1px solid @borderColor;
+  border-bottom: 1px solid @borderColor;
+}
+
+.side,
+.plus-tabs{
+  border: 1px solid @borderColor;
+}
+
+.side-footer .column{
+  border-right: 1px solid @borderColor;
+}
+
+i.icon.folder:before{
+  color: @fileIconColor;
+}
+
+.code-lang,
+.search-input,
+.jodit_toolbar,
+.ace-tm .ace_gutter,
+.response-common .fence{
+  background-color: @apiListBackgroundColor !important;
+}
+.accordion .content li{
+  background-color: @apiListBackgroundColor;
+}
+
+

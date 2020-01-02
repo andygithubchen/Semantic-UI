@@ -1,0 +1,11 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+@resultsBackground: @backgroundColor;
+@resultsBorder: 1px solid @borderColor;
+
+@resultTitleColor: @textColor;
+@resultDescriptionColor: @textColor;
+
+@resultHoverBackground: @apiListBackgroundColor;

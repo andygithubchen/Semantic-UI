@@ -1,0 +1,82 @@
+/*******************************
+     User Global Variables
+*******************************/
+@textColor: #ced9e0;
+@emSize   : 12px;
+@fontSize : 12px;
+@red : #e96b6b;
+
+@pageBackground:  #394B59;
+@backgroundColor: #293742;
+@borderColor:     #212930;
+@nightBorderColor:#06080A;
+@fileIconColor:   #eba439;
+
+@basicButtonTextColor: #ced9e0;
+@basicBoxShadowColor: #10161A;
+@basicButtonBroderColor:#31414D;
+
+@labelBackgroundColor: #293742;
+
+@iconColor: #8F979E;
+@groupListBorderColor: #212930;
+
+@headerColor: #1F2932;
+
+@apiListBackgroundColor: #30404C;
+
+
+@internalBorderColor: rgba(34, 36, 38, 0.3);
+@solidInternalBorderColor  : @apiListBackgroundColor;
+
+@secondaryPointingActiveColor: #009966;
+
+
+/* --------- form --------- */
+@focusedFormBorderColor: unset;
+@inputBackground        : @apiListBackgroundColor;
+@focusedFormBorderColor: @borderColor;
+@focusedFormMutedBorderColor: @borderColor;
+
+@inputPlaceholderColor: #6a737f;
+@inputPlaceholderFocusColor: #6a737f;
+
+
+@negativeColor           : @red;
+@negativeBackgroundColor : @apiListBackgroundColor;
+@negativeBorderColor     : @red;
+@negativeHeaderColor     : #912D2B;
+@negativeTextColor       : @red;
+
+
+/* --------- chrome tabs --------- */
+@chromeTabTextColor:#a7b6c2;
+@chromeTabActiveTextColor:@white;
+@chromeDividersColor:@borderColor;
+
+
+
+/*-------------------
+    Scroll Bars
+--------------------*/
+@useCustomScrollbars: true;
+
+@customScrollbarWidth: 4px;
+@customScrollbarHeight: 4px;
+
+@trackBackground: rgba(0, 0, 0, 0.1);
+@trackBorderRadius: 0px;
+
+@thumbBorderRadius: 20px;
+@thumbBackground: rgba(0, 0, 0, 0.25);
+@thumbTransition: color 0.2s ease;
+
+@thumbInactiveBackground: rgba(0, 0, 0, 0.15);
+@thumbHoverBackground: rgba(128, 135, 139, 0.8);
+
+/* Inverted */
+@trackInvertedBackground: rgba(255, 255, 255, 0.1);
+@thumbInvertedBackground: rgba(255, 255, 255, 0.25);
+@thumbInvertedInactiveBackground: rgba(255, 255, 255, 0.15);
+@thumbInvertedHoverBackground: rgba(255, 255, 255, 0.35);
+

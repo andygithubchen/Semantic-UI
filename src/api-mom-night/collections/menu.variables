@@ -1,0 +1,12 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+@dropdownBackground: @pageBackground;
+
+@secondaryHoverItemColor: @textColor;
+@secondaryActiveItemColor: @textColor;
+@secondaryActiveHoverItemColor: @textColor;
+
+@secondaryPointingActiveBorderColor: @secondaryPointingActiveColor;
+@secondaryPointingActiveTextColor: @secondaryPointingActiveColor;

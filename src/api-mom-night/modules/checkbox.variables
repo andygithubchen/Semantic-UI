@@ -1,0 +1,8 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+@disabledCheckboxLabelColor: @textColor;
+
+@labelHoverColor: @textColor;
+@labelFocusColor: @textColor;
