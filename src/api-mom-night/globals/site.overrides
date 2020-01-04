@@ -6,22 +6,14 @@
   background-color: @headerColor;
 }
 
-.lc-header,
-.chrome-tabs{
+.lc-header{
   border-bottom: 1px solid @nightBorderColor !important;
 }
 
 .side,
 .group-list,
-.chrome-tabs,
-.side-footer .column,
-.chrome-tabs .chrome-tab{
+.side-footer .column{
   background-color: @backgroundColor;
-}
-
-.chrome-tabs .chrome-tab .chrome-tab-dividers::before,
-.chrome-tabs .chrome-tab .chrome-tab-dividers::after{
-  background-color: @nightBorderColor;
 }
 
 .side .search,
@@ -116,6 +108,9 @@ i.icons{
   background-color: @apiListBackgroundColor !important;
 }
 
+.other-description{
+  border-color: @apiListBackgroundColor !important;
+}
 
 
 /* ======================================= ace editor ======================================= */
@@ -160,6 +155,17 @@ i.icons{
 }
 
 /* ======================================= chrome tabs ======================================= */
+.chrome-tabs{
+  border-bottom: 1px solid @nightBorderColor !important;
+}
+.chrome-tabs,
+.chrome-tabs .chrome-tab{
+  background-color: @backgroundColor;
+}
+.chrome-tabs .chrome-tab .chrome-tab-dividers::before,
+.chrome-tabs .chrome-tab .chrome-tab-dividers::after{
+  background-color: @nightBorderColor;
+}
 .chrome-tabs .chrome-tab[active]{
   background-color: @pageBackground !important;
 }
@@ -181,5 +187,4 @@ i.icons{
     opacity: 1;
   }
 }
-
 

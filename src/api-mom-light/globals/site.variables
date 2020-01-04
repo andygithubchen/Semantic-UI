@@ -3,15 +3,34 @@
 *******************************/
 @emSize   : 12px;
 @fontSize : 12px;
-
+@pageBackground:  #FFFFFF;
 @backgroundColor: #f5f8fa;
-@borderColor:     #ced9e0;
 @fileIconColor:   #eba439;
+@red: #e96b6b;
+@iconColor: #394B59;
 
-@apiListBackgroundColor: #fbfbfb;
+@borderColor:     #ced9e0;
+@apiListBackgroundColor: #fdfdfd;
+@nightBorderColor: @borderColor;
+@formBorderColor: #ededed;
 
 
+@groupListBorderColor: #e4e4e4;
+@headerColor: @backgroundColor;
 
+
+@labelBackgroundColor: #293742;
+@internalBorderColor: rgba(34, 36, 38, 0.1);
+@solidInternalBorderColor: @apiListBackgroundColor;
+
+
+/* --------- form --------- */
+@focusedFormBorderColor: @borderColor;
+@focusedFormMutedBorderColor: @borderColor;
+
+
+/* --------- chrome tabs --------- */
+@chromeDividersColor:@borderColor;
 
 
 /*-------------------
