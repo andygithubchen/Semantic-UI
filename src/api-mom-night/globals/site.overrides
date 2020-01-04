@@ -103,6 +103,9 @@ i.icons{
 .ui.form .inline.fields .wide.field.action .must-red{
   color: @red !important;
 }
+.child-content .head-title{
+  color: @secondaryPointingActiveColor;
+}
 
 .side-footer .column:hover{
   background-color: @apiListBackgroundColor !important;
