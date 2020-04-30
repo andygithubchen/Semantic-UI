@@ -13,7 +13,7 @@
              Page
 *******************************/
 
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin');
+@import url('https://fonts.loli.net/css?family=Lato:400,700,400italic,700italic&subset=latin');
 html,
 body {
   height: 100%;
@@ -124,36 +124,36 @@ a:hover {
 
 /* Site */
 ::-webkit-selection {
-  background-color: #CCE2FF;
+  background-color: #096FD5;
   color: #ced9e0;
 }
 ::-moz-selection {
-  background-color: #CCE2FF;
+  background-color: #096FD5;
   color: #ced9e0;
 }
 ::selection {
-  background-color: #CCE2FF;
+  background-color: #096FD5;
   color: #ced9e0;
 }
 
 /* Form */
 textarea::-webkit-selection,
 input::-webkit-selection {
-  background-color: rgba(100, 100, 100, 0.4);
+  background-color: #096FD5;
   color: #ced9e0;
 }
 textarea::-moz-selection,
 input::-moz-selection {
-  background-color: rgba(100, 100, 100, 0.4);
+  background-color: #096FD5;
   color: #ced9e0;
 }
 textarea::-moz-selection, input::-moz-selection {
-  background-color: rgba(100, 100, 100, 0.4);
+  background-color: #096FD5;
   color: #ced9e0;
 }
 textarea::selection,
 input::selection {
-  background-color: rgba(100, 100, 100, 0.4);
+  background-color: #096FD5;
   color: #ced9e0;
 }
 
@@ -254,7 +254,7 @@ i.icon.folder:before {
 .accordion .content li:hover {
   background: #293742 !important;
   color: rgba(206, 217, 224, 0.5) !important;
-  border-left-color: #000 !important;
+  border-left-color: #bb2f41 !important;
 }
 .params .item,
 .ui.form .inline.fields .wide.field,
@@ -304,6 +304,12 @@ i.icons {
 }
 .other-description {
   border-color: #30404C !important;
+}
+.ui.positive.button .icon,
+.ui.positive.buttons .button .icon,
+.ui.blue.button .icon,
+.ui.blue.buttons .button .icon {
+  color: #FFF !important;
 }
 
 /* ======================================= ace editor ======================================= */

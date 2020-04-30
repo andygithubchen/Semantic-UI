@@ -57,3 +57,5 @@
 @thumbInvertedInactiveBackground: rgba(255, 255, 255, 0.15);
 @thumbInvertedHoverBackground: rgba(255, 255, 255, 0.35);
 
+/* Highlighted Text */
+@inputHighlightBackground : #CCE2FF;

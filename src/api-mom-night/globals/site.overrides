@@ -58,7 +58,7 @@ i.icon.folder:before{
 .accordion .content li:hover{
   background: @backgroundColor !important;
   color: fade(@textColor, 50%) !important;
-  border-left-color: #000 !important;
+  border-left-color: #bb2f41 !important;
 }
 
 .params .item,
@@ -113,6 +113,13 @@ i.icons{
 
 .other-description{
   border-color: @apiListBackgroundColor !important;
+}
+
+.ui.positive.button .icon,
+.ui.positive.buttons .button .icon,
+.ui.blue.button .icon,
+.ui.blue.buttons .button .icon{
+  color:#FFF !important;
 }
 
 

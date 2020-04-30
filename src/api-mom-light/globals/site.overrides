@@ -50,14 +50,14 @@ i.icon.folder:before{
   background-color: @apiListBackgroundColor !important;
 }
 .accordion .content li{
-  background-color: @apiListBackgroundColor;
-  border-left-color: @apiListBackgroundColor !important;
-  border-top-color: @backgroundColor !important;
+  background-color: #fcfcfc;
+  border-left-color: #fcfcfc !important;
+  border-top-color: #eaeaea !important;
 }
 .accordion .content li:hover{
-  background: #E5EBF0 !important;
-  color: fade(@textColor, 50%) !important;
-  border-left-color: #000 !important;
+  background: @backgroundColor !important;
+  color: fade(@textColor, 90%) !important;
+  border-left-color: #bb2f41 !important;
 }
 
 .params .item,
@@ -103,6 +103,12 @@ i.icons{
   border-color: @formBorderColor !important;
 }
 
+.ui.positive.button .icon,
+.ui.positive.buttons .button .icon,
+.ui.blue.button .icon,
+.ui.blue.buttons .button .icon{
+  color:#FFF !important;
+}
 
 /* ======================================= ace editor ======================================= */
 .ace-box{
