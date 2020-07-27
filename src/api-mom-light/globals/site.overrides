@@ -86,6 +86,11 @@ i.icons{
   color: @iconColor !important;
 }
 
+.params i{
+  cursor:pointer;
+  color:#bbbbbb !important;
+}
+
 .response-headers td{
   border-color: @backgroundColor !important;
 }
@@ -140,22 +145,18 @@ i.icons{
 
 /* ======================================= chrome tabs ======================================= */
 .chrome-tabs{
-  border-bottom: 1px solid @nightBorderColor !important;
+  border-bottom: 1px solid fade(@nightBorderColor, 60%) !important;
 }
 .chrome-tabs,
 .chrome-tabs .chrome-tab{
   background-color: @backgroundColor;
-}
-.chrome-tabs .chrome-tab .chrome-tab-dividers::before,
-.chrome-tabs .chrome-tab .chrome-tab-dividers::after{
-  background-color: @nightBorderColor;
 }
 .chrome-tabs .chrome-tab[active]{
   background-color: @pageBackground !important;
 }
 .chrome-tabs .chrome-tab .chrome-tab-dividers::before,
 .chrome-tabs .chrome-tab .chrome-tab-dividers::after{
-  background: @chromeDividersColor !important;
+  background: fade(@nightBorderColor, 60%) !important;
 }
 @media (hover: hover) {
   .chrome-tabs .chrome-tab:not([active]):hover {

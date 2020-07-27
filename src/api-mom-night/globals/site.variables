@@ -52,7 +52,6 @@
 /* --------- chrome tabs --------- */
 @chromeTabTextColor:#a7b6c2;
 @chromeTabActiveTextColor:@white;
-@chromeDividersColor:@borderColor;
 
 
 

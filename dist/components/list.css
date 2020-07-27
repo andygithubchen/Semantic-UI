@@ -163,7 +163,7 @@ ol.ui.list ol li,
   margin: 0em;
   font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: bold;
-  color: #ced9e0;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 /* Description */
@@ -334,7 +334,7 @@ ol.ui.list ol li,
 
 .ui.list .list > a.item:hover .icon,
 .ui.list > a.item:hover .icon {
-  color: #ced9e0;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 
@@ -568,7 +568,7 @@ ul.ui.list li:before,
 ul.ui.list li:before,
 .ui.bulleted.list .list > a.item:before,
 .ui.bulleted.list > a.item:before {
-  color: #ced9e0;
+  color: rgba(0, 0, 0, 0.87);
 }
 ul.ui.list ul,
 .ui.bulleted.list .list {
@@ -590,7 +590,7 @@ ul.ui.horizontal.bulleted.list li:first-child,
 }
 ul.ui.horizontal.bulleted.list li::before,
 .ui.horizontal.bulleted.list > .item::before {
-  color: #ced9e0;
+  color: rgba(0, 0, 0, 0.87);
 }
 ul.ui.horizontal.bulleted.list li:first-child::before,
 .ui.horizontal.bulleted.list > .item:first-child::before {
@@ -630,7 +630,7 @@ ol.ui.list li:before,
   counter-increment: ordered;
   content: counters(ordered, ".") " ";
   text-align: right;
-  color: #ced9e0;
+  color: rgba(0, 0, 0, 0.87);
   vertical-align: middle;
   opacity: 0.8;
 }
@@ -676,7 +676,7 @@ ol.ui.horizontal.list li:before,
 --------------------*/
 
 .ui.divided.list > .item {
-  border-top: 1px solid #212930;
+  border-top: 1px solid #ced9e0;
 }
 .ui.divided.list .list > .item {
   border-top: none;
@@ -740,7 +740,7 @@ ol.ui.horizontal.list li:before,
 }
 .ui.divided.horizontal.list > .item {
   border-top: none;
-  border-left: 1px solid #212930;
+  border-left: 1px solid #ced9e0;
   margin: 0em;
   line-height: 0.6;
 }
@@ -761,12 +761,12 @@ ol.ui.horizontal.list li:before,
 
 .ui.celled.list > .item,
 .ui.celled.list > .list {
-  border-top: 1px solid #212930;
+  border-top: 1px solid #ced9e0;
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
 .ui.celled.list > .item:last-child {
-  border-bottom: 1px solid #212930;
+  border-bottom: 1px solid #ced9e0;
 }
 
 /* Padding on all elements */
@@ -822,7 +822,7 @@ ol.ui.horizontal.list li:before,
 .ui.horizontal.celled.list .list > .item,
 .ui.horizontal.celled.list > .item {
   border-top: none;
-  border-left: 1px solid #212930;
+  border-left: 1px solid #ced9e0;
   margin: 0em;
   padding-left: 0.5em;
   padding-right: 0.5em;
@@ -831,7 +831,7 @@ ol.ui.horizontal.list li:before,
 .ui.horizontal.celled.list .list > .item:last-child,
 .ui.horizontal.celled.list > .item:last-child {
   border-bottom: none;
-  border-right: 1px solid #212930;
+  border-right: 1px solid #ced9e0;
 }
 
 /* Inverted */

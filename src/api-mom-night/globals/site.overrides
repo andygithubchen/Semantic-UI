@@ -81,10 +81,14 @@ i.icon.folder:before{
   border: 1px solid @borderColor !important;
 }
 
-
 i.icon,
 i.icons{
   color: @iconColor !important;
+}
+
+.params i{
+  cursor:pointer;
+  color:#293742 !important
 }
 
 .ui.menu .active.item>i.icon.code{
@@ -166,7 +170,7 @@ i.icons{
 
 /* ======================================= chrome tabs ======================================= */
 .chrome-tabs{
-  border-bottom: 1px solid @nightBorderColor !important;
+  border-bottom: 1px solid fade(@nightBorderColor, 30%) !important;
 }
 .chrome-tabs,
 .chrome-tabs .chrome-tab{
@@ -174,7 +178,7 @@ i.icons{
 }
 .chrome-tabs .chrome-tab .chrome-tab-dividers::before,
 .chrome-tabs .chrome-tab .chrome-tab-dividers::after{
-  background-color: @nightBorderColor;
+  background-color: fade(@nightBorderColor, 30%)!important;
 }
 .chrome-tabs .chrome-tab[active]{
   background-color: @pageBackground !important;
@@ -184,10 +188,6 @@ i.icons{
 }
 .chrome-tabs .chrome-tab[active] .chrome-tab-title{
   color: @chromeTabActiveTextColor !important;
-}
-.chrome-tabs .chrome-tab .chrome-tab-dividers::before,
-.chrome-tabs .chrome-tab .chrome-tab-dividers::after{
-  background: @chromeDividersColor !important;
 }
 @media (hover: hover) {
   .chrome-tabs .chrome-tab:not([active]):hover {
