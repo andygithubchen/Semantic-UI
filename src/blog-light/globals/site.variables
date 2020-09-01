@@ -1,0 +1,61 @@
+/*******************************
+     User Global Variables
+*******************************/
+@emSize   : 13px;
+@fontSize : 13px;
+@pageBackground:  #FFFFFF;
+@backgroundColor: #f5f8fa;
+@fileIconColor:   #eba439;
+@red: #e96b6b;
+@iconColor: #394B59;
+
+@borderColor:     #ced9e0;
+@apiListBackgroundColor: #fdfdfd;
+@nightBorderColor: @borderColor;
+@formBorderColor: #ededed;
+
+
+@groupListBorderColor: #e4e4e4;
+@headerColor: @backgroundColor;
+
+
+@labelBackgroundColor: #293742;
+@internalBorderColor: rgba(34, 36, 38, 0.1);
+@solidInternalBorderColor: @apiListBackgroundColor;
+
+
+/* --------- form --------- */
+@focusedFormBorderColor: @borderColor;
+@focusedFormMutedBorderColor: @borderColor;
+
+
+/* --------- chrome tabs --------- */
+@chromeDividersColor:@borderColor;
+
+
+/*-------------------
+    Scroll Bars
+--------------------*/
+@useCustomScrollbars: true;
+
+@customScrollbarWidth: 4px;
+@customScrollbarHeight: 4px;
+
+@trackBackground: rgba(0, 0, 0, 0.1);
+@trackBorderRadius: 0px;
+
+@thumbBorderRadius: 20px;
+@thumbBackground: rgba(0, 0, 0, 0.25);
+@thumbTransition: color 0.2s ease;
+
+@thumbInactiveBackground: rgba(0, 0, 0, 0.15);
+@thumbHoverBackground: rgba(128, 135, 139, 0.8);
+
+/* Inverted */
+@trackInvertedBackground: rgba(255, 255, 255, 0.1);
+@thumbInvertedBackground: rgba(255, 255, 255, 0.25);
+@thumbInvertedInactiveBackground: rgba(255, 255, 255, 0.15);
+@thumbInvertedHoverBackground: rgba(255, 255, 255, 0.35);
+
+/* Highlighted Text */
+@inputHighlightBackground : #CCE2FF;

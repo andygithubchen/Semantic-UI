@@ -1,0 +1,7 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+@inputFocusColor: @textColor;
+@loaderDimmerColor: fade(@pageBackground, 80%);
+

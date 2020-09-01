@@ -4,7 +4,7 @@
 @emSize   : 12px;
 @fontSize : 12px;
 @pageBackground:  #FFFFFF;
-@backgroundColor: #f5f8fa;
+@backgroundColor: #f8f9fa;
 @fileIconColor:   #eba439;
 @red: #e96b6b;
 @iconColor: #394B59;

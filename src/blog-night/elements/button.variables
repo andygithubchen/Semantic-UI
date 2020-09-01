@@ -1,0 +1,17 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+@basicHoverBackground: @transparentBlack;
+@basicDownBackground: @transparentBlack;
+
+@basicBackground: @pageBackground;
+@basicBoxShadow: 0 0 0 1px fade(@basicBoxShadowColor, 40%);
+@basicTextColor: @basicButtonTextColor;
+
+@basicHoverBackground: @basicButtonBroderColor;
+@basicHoverTextColor: @hoveredTextColor;
+@basicHoverBoxShadow: 0 0 0 1px fade(@basicBoxShadowColor, 60%);
+@basicDownBackground: @basicButtonBroderColor;
+@basicDownBoxShadow: 0 0 0 1px fade(@basicBoxShadowColor, 60%);
+

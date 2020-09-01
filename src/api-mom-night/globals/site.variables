@@ -4,7 +4,7 @@
 @textColor: #ced9e0;
 @emSize   : 12px;
 @fontSize : 12px;
-@red : #e96b6b;
+@red      : #e96b6b;
 
 @pageBackground:  #394B59;
 @backgroundColor: #293742;
@@ -30,6 +30,7 @@
 @solidInternalBorderColor  : @apiListBackgroundColor;
 
 @secondaryPointingActiveColor: #009966;
+@selectedTextColor           : #FFFFFF;
 
 
 /* --------- form --------- */

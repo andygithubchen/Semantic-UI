@@ -1,0 +1,4 @@
+/*******************************
+        User Overrides
+*******************************/
+@styledBackground: @backgroundColor;

@@ -22,7 +22,7 @@
 }
 
 .plus-tabs{
-  border: 1px solid @nightBorderColor;
+  border: 1px solid fade(@nightBorderColor, 30%) !important;
 }
 
 .side{
@@ -57,7 +57,7 @@ i.icon.folder:before{
 }
 .accordion .content li:hover{
   background: @backgroundColor !important;
-  color: fade(@textColor, 50%) !important;
+  color: #FFFFFF !important;
   border-left-color: #bb2f41 !important;
 }
 

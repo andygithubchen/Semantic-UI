@@ -1,0 +1,185 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+.lc-header{
+  background-color: @headerColor;
+}
+
+.lc-header{
+  border-bottom: 1px solid @nightBorderColor !important;
+}
+
+.side,
+.group-list,
+.side-footer .column{
+  background-color: @backgroundColor;
+}
+
+.side .search,
+.group-list {
+  border-color: @groupListBorderColor !important;
+}
+
+.plus-tabs{
+  border: 1px solid fade(@nightBorderColor, 30%) !important;
+}
+
+.side{
+  border-right: 1px solid @nightBorderColor;
+}
+.side-footer{
+  border-top: 1px solid @borderColor;
+}
+.side-footer .column{
+  border-right: 1px solid @borderColor;
+}
+
+i.icon.folder:before{
+  color: @fileIconColor;
+}
+
+.code-lang,
+.response-common .fence{
+  background-color: @apiListBackgroundColor !important;
+}
+
+.accordion .content .action{
+  background-color: @backgroundColor !important;
+}
+.accordion .action i:hover{
+  background-color: @apiListBackgroundColor !important;
+}
+.accordion .content li{
+  background-color: @apiListBackgroundColor;
+  border-left-color: @apiListBackgroundColor !important;
+  border-top-color: @backgroundColor !important;
+}
+.accordion .content li:hover{
+  background: @backgroundColor !important;
+  color: fade(@textColor, 50%) !important;
+  border-left-color: #bb2f41 !important;
+}
+
+.params .item,
+.ui.form .inline.fields .wide.field,
+.ui.form .inline.fields .wide.field.action,
+.environment .item{
+  background-color: @pageBackground !important;
+  border-color: @apiListBackgroundColor !important;
+}
+.ui.form .disabled.field, .ui.form .disabled.fields .field, .ui.form .field :disabled,
+.ui.disabled.input, .ui.input:not(.disabled) input[disabled]{
+  opacity:1 !important;
+}
+.code-lang,
+.response-common,
+.api-request .ui.attached.segment{
+  border-color: @borderColor !important;
+}
+.code-tab{
+  border: 1px solid @borderColor !important;
+}
+
+i.icon,
+i.icons{
+  color: @iconColor !important;
+}
+
+.params i{
+  cursor:pointer;
+  color:#293742 !important
+}
+
+.ui.menu .active.item>i.icon.code{
+  color: @secondaryPointingActiveColor !important;
+}
+
+.response-headers td{
+  border-color: @backgroundColor !important;
+}
+.api-request .segment{
+  background-color: @apiListBackgroundColor !important;
+}
+
+.tips,
+.child-content .head-title font,
+.ui.form .inline.fields .wide.field.action .must-red{
+  color: @red !important;
+}
+.child-content .head-title{
+  color: @secondaryPointingActiveColor;
+}
+
+.side-footer .column:hover{
+  background-color: @apiListBackgroundColor !important;
+}
+
+.other-description{
+  border-color: @apiListBackgroundColor !important;
+}
+
+.ui.positive.button .icon,
+.ui.positive.buttons .button .icon,
+.ui.blue.button .icon,
+.ui.blue.buttons .button .icon{
+  color:#FFF !important;
+}
+.footnote span{
+  background: @pageBackground !important;
+}
+.ui.comments .comment .metadata .date{
+  color: #595959 !important;
+}
+
+.writing{
+  background: @pageBackground !important;
+}
+
+/* ====================== wysibb ====================== */
+.wysibb{
+  border: 1px solid @wysibbBorderColor !important;
+  background: #1e2831 !important;
+}
+.wysibb .wysibb-toolbar{
+  border-bottom: 1px solid @wysibbBorderColor !important;
+}
+.wysibb .wysibb-toolbar .wysibb-toolbar-container{
+  border-right: 1px solid @wysibbBorderColor !important;
+}
+.wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn .fonticon{
+  color: #151515 !important;
+  text-shadow: none !important;
+}
+.wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn span.btn-tooltip,
+.codemain{
+  border: 1px solid @wysibbBorderColor !important;
+}
+.wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn:hover,
+.wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.on,
+.wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.on:hover,
+.wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn:active{
+  background: #323538f5 !important;
+  box-shadow:none !important;
+  border: 1px solid @wysibbBorderColor !important;
+}
+
+#wbbmodal .wbbm{
+  box-shadow:none !important;
+  border: 1px solid @wysibbBorderColor !important;
+  background: @pageBackground !important;
+}
+#wbbmodal .wbbm-title{
+  color:#FFFFFF !important;
+  border-bottom: 1px solid #131313 !important;
+}
+#wbbmodal .wbbm-bottom{
+  border-top: 1px solid #131313 !important;
+  background: @pageBackground !important;
+}
+#wbbmodal .div-modal-text,
+#wbbmodal .wbbm-inp-row input{
+  border-radius:3px !important;
+  background: @apiListBackgroundColor !important;
+  border: 1px solid @borderColor !important;
+}

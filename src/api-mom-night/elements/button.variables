@@ -10,7 +10,7 @@
 @basicTextColor: @basicButtonTextColor;
 
 @basicHoverBackground: @basicButtonBroderColor;
-@basicHoverTextColor: @hoveredTextColor;
+@basicHoverTextColor: #FFFFFF;
 @basicHoverBoxShadow: 0 0 0 1px fade(@basicBoxShadowColor, 60%);
 @basicDownBackground: @basicButtonBroderColor;
 @basicDownBoxShadow: 0 0 0 1px fade(@basicBoxShadowColor, 60%);
