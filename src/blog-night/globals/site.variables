@@ -30,6 +30,7 @@
 @solidInternalBorderColor  : @apiListBackgroundColor;
 
 @secondaryPointingActiveColor: #009966;
+@selectedTextColor           : #FFFFFF;
 
 
 /* --------- form --------- */
