@@ -50,9 +50,9 @@ i.icon.folder:before{
   background-color: @apiListBackgroundColor !important;
 }
 .accordion .content li{
-  background-color: #fcfcfc;
-  border-left-color: #fcfcfc !important;
-  border-top-color: #eaeaea !important;
+  background-color: #FCFCFC;
+  border-left-color:#FCFCFC !important;
+  border-top-color: #f1f1f1 !important;
 }
 .accordion .content li:hover{
   background: @backgroundColor !important;

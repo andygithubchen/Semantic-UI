@@ -212,6 +212,13 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 .lc-header {
   border-bottom: 1px solid #06080A !important;
 }
+.header-tips {
+  background: #30404C;
+  border: 1px solid #212930;
+}
+.header-tips li:hover {
+  background-color: #394b59;
+}
 .side,
 .group-list,
 .side-footer .column {

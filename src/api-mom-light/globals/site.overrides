@@ -8,6 +8,13 @@
 .lc-header{
   border-bottom: 1px solid @nightBorderColor !important;
 }
+.header-tips{
+  background: @apiListBackgroundColor;
+  border: 1px solid @borderColor;
+}
+.header-tips li:hover{
+  background-color: @backgroundColor;
+}
 
 .side,
 .group-list,
@@ -50,8 +57,8 @@ i.icon.folder:before{
   background-color: @apiListBackgroundColor !important;
 }
 .accordion .content li{
-  background-color: #fcfcfc;
-  border-left-color: #fcfcfc !important;
+  background-color: #FDFDFC;
+  border-left-color:#FDFDFC !important;
   border-top-color: #eaeaea !important;
 }
 .accordion .content li:hover{

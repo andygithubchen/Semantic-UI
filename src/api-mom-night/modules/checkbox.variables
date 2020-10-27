@@ -6,3 +6,7 @@
 
 @labelHoverColor: @textColor;
 @labelFocusColor: @textColor;
+
+@selectedTextColor: @iconColor;
+
+

@@ -9,6 +9,13 @@
 .lc-header{
   border-bottom: 1px solid @nightBorderColor !important;
 }
+.header-tips{
+  background: @apiListBackgroundColor;
+  border: 1px solid @borderColor;
+}
+.header-tips li:hover{
+  background-color: #394b59;
+}
 
 .side,
 .group-list,
