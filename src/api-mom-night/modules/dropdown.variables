@@ -3,5 +3,5 @@
 *******************************/
 
 @menuBackground: #394B59;
-
+@pointingArrowBackground: @apiListBackgroundColor;
 

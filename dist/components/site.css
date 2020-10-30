@@ -208,8 +208,6 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 
 .lc-header {
   background-color: #1F2932;
-}
-.lc-header {
   border-bottom: 1px solid #06080A !important;
 }
 .header-tips {
@@ -285,6 +283,7 @@ i.icon.folder:before {
 .code-tab {
   border: 1px solid #212930 !important;
 }
+em,
 i.icon,
 i.icons {
   color: #8F979E !important;

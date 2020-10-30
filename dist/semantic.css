@@ -768,9 +768,6 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 
 .lc-header {
   background-color: #1F2932;
-}
-
-.lc-header {
   border-bottom: 1px solid #06080A !important;
 }
 
@@ -865,6 +862,7 @@ i.icon.folder:before {
   border: 1px solid #212930 !important;
 }
 
+em,
 i.icon,
 i.icons {
   color: #8F979E !important;
@@ -33757,7 +33755,7 @@ select.ui.dropdown {
   height: 0.58333333em;
   -webkit-box-shadow: -1px -1px 0px 0px #212930;
   box-shadow: -1px -1px 0px 0px #212930;
-  background: #FFFFFF;
+  background: #30404C;
   z-index: 2;
 }
 

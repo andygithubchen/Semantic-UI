@@ -1271,7 +1271,7 @@ select.ui.dropdown {
   height: 0.58333333em;
   -webkit-box-shadow: -1px -1px 0px 0px #212930;
           box-shadow: -1px -1px 0px 0px #212930;
-  background: #FFFFFF;
+  background: #30404C;
   z-index: 2;
 }
 .ui.pointing.dropdown > .menu:after {

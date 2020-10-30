@@ -3,9 +3,6 @@
 *******************************/
 .lc-header{
   background-color: @headerColor;
-}
-
-.lc-header{
   border-bottom: 1px solid @nightBorderColor !important;
 }
 .header-tips{
@@ -91,6 +88,9 @@ i.icon.folder:before{
 i.icon,
 i.icons{
   color: @iconColor !important;
+}
+em{
+  color: #bbbbbb;
 }
 
 .params i{

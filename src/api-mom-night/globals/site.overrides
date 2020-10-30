@@ -1,12 +1,8 @@
 /*******************************
          Site Overrides
 *******************************/
-
 .lc-header{
   background-color: @headerColor;
-}
-
-.lc-header{
   border-bottom: 1px solid @nightBorderColor !important;
 }
 .header-tips{
@@ -88,6 +84,7 @@ i.icon.folder:before{
   border: 1px solid @borderColor !important;
 }
 
+em,
 i.icon,
 i.icons{
   color: @iconColor !important;
