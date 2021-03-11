@@ -123,6 +123,11 @@ i.icons{
   border-color: @apiListBackgroundColor !important;
 }
 
+.return-remark-su,
+.return-remark-fa{
+  border-right:1px solid @apiListBackgroundColor !important;
+}
+
 .ui.positive.button .icon,
 .ui.positive.buttons .button .icon,
 .ui.blue.button .icon,

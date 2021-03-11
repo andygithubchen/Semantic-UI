@@ -33,7 +33,7 @@
   padding: 0.5em 0em;
   font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 1em;
-  color: #ced9e0;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 /* Content */
@@ -126,9 +126,9 @@
 .ui.styled.accordion,
 .ui.styled.accordion .accordion {
   border-radius: 0.33333333rem;
-  background: #293742;
-  -webkit-box-shadow: 0px 1px 2px 0 #212930, 0px 0px 0px 1px #212930;
-          box-shadow: 0px 1px 2px 0 #212930, 0px 0px 0px 1px #212930;
+  background: #f8f9fa;
+  -webkit-box-shadow: 0px 1px 2px 0 #ced9e0, 0px 0px 0px 1px #ced9e0;
+          box-shadow: 0px 1px 2px 0 #ced9e0, 0px 0px 0px 1px #ced9e0;
 }
 .ui.styled.accordion .title,
 .ui.styled.accordion .accordion .title {
@@ -136,7 +136,7 @@
   padding: 0.75em 1em;
   color: rgba(0, 0, 0, 0.4);
   font-weight: bold;
-  border-top: 1px solid #212930;
+  border-top: 1px solid #ced9e0;
   -webkit-transition: background 0.1s ease, color 0.1s ease;
   transition: background 0.1s ease, color 0.1s ease;
 }
@@ -162,22 +162,22 @@
 .ui.styled.accordion .accordion .title:hover,
 .ui.styled.accordion .accordion .active.title {
   background: transparent;
-  color: #ced9e0;
+  color: rgba(0, 0, 0, 0.87);
 }
 .ui.styled.accordion .accordion .title:hover,
 .ui.styled.accordion .accordion .active.title {
   background: transparent;
-  color: #ced9e0;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 /* Active */
 .ui.styled.accordion .active.title {
   background: transparent;
-  color: #FFFFFF;
+  color: rgba(0, 0, 0, 0.95);
 }
 .ui.styled.accordion .accordion .active.title {
   background: transparent;
-  color: #FFFFFF;
+  color: rgba(0, 0, 0, 0.95);
 }
 
 
